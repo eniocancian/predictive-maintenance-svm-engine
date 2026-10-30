@@ -12,6 +12,14 @@ Em linhas de produção automatizadas, a classificação binária simples é ins
 
 3. **Camada Pericial Generativa**: O endpoint FastAPI aciona o modelo `gemini-3.8-flash` de modo assíncrono e protegido contra latências de rede, diagnosticando a causa raiz da falha (*HDF*, *OSF*, *TWF*) e emitindo diretrizes técnicas imediatas para a equipe de operação.
 
+
+## 📸 Demonstração da Interface Operacional
+
+| Regime Estável (Conformidade Nominal) | Sobrecarga Crítica (Alerta OSF/TWF) |
+| :---: | :---: |
+| ![Regime Estável](assets/dashboard_normal.png) | ![Alerta Crítico](assets/dashboard_failure.png) |
+
+---
 ## 🏛️ Arquitetura de Microsserviços
 
 ```
