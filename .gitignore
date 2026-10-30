@@ -1,0 +1,20 @@
+﻿# Ambientes virtuais e cache
+__pycache__/
+*.py[cod]
+*.class
+.ipynb_checkpoints/
+venv/
+env/
+.env
+
+# Modelos pesados e bases locais grandes
+*.joblib
+*.pkl
+data/*.csv
+!data/.gitkeep
+
+# IDEs e Sistema
+.vscode/
+.spyproject/
+.DS_Store
+Thumbs.db
